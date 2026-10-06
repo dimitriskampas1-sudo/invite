@@ -23,9 +23,9 @@ const PHONE_NUMBER = "69X XXX XXXX";
 // ============================================================
 
 const PHASES = [
-    { duration: 90, label: "⏰ Η προσφορά λήγει σε:", cssClass: "" },
+    { duration: 60, label: "⏰ Η προσφορά λήγει σε:", cssClass: "" },
     { duration: 10, label: "🤔 Έχεις 10 δευτερόλεπτα να το σκεφτείς!", cssClass: "warning" },
-    { duration: 30, label: "⏰ ΤΕΛΕΥΤΑΙΑ ΕΥΚΑΙΡΙΑ:", cssClass: "final" }
+    { duration: 15, label: "⏰ ΤΕΛΕΥΤΑΙΑ ΕΥΚΑΙΡΙΑ:", cssClass: "final" }
 ];
 
 let phaseIndex = 0;
