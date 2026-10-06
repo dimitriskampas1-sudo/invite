@@ -19,7 +19,7 @@ body {
        Το 0.75 σημαίνει 75% λευκό overlay. Μικρότερος αριθμός = πιο έντονη φωτογραφία.
        Δοκίμασε 0.65 ή 0.7 αν θέλεις να φαίνεται ακόμα πιο πολύ. */
     background:
-        linear-gradient(rgba(255, 255, 255, 0.60), rgba(255, 255, 255, 0.60)),
+        linear-gradient(rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.55)),
         url('photo.png') center/cover no-repeat;
 
     border-radius: 24px;
