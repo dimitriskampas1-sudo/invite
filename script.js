@@ -16,7 +16,7 @@ const noBtnWrapper = document.querySelector(".buttons-wrapper");
 const countdownEl = document.getElementById("countdown");
 
 // 👇 ΑΛΛΑΞΕ ΕΔΩ ΤΟ ΤΗΛΕΦΩΝΟ ΣΟΥ
-const PHONE_NUMBER = "697 724 3990";
+const PHONE_NUMBER = "6977243990";
 
 // ============================================================
 // === ΑΝΤΙΣΤΡΟΦΗ ΜΕΤΡΗΣΗ ΜΕ 3 ΦΑΣΕΙΣ ==========================
