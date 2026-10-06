@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Μια ερώτηση...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="question-step">
+            <!-- Εικόνα μέσα στο κουτί -->
+            
+
+            <div class="countdown" id="countdown">
+                <span class="countdown-label">⏰ Η προσφορά λήγει σε:</span>
+                <span class="countdown-timer" id="countdown-timer">01:30</span>
+            </div>
+
+            <h1>Θα ήθελες να βγούμε κάποια μέρα;</h1>
+            <div class="buttons-wrapper">
+                <button id="yes-btn" class="btn btn-yes">Ναι</button>
+                <button id="no-btn" class="btn btn-no">Όχι</button>
+            </div>
+        </div>
+
+        <div id="date-step" class="hidden">
+            <h2>Το ήξερα ότι θα πεις ναι! 🎉</h2>
+            <p class="date-subtitle">Διάλεξε μέρα και ώρα:</p>
+            <form id="date-form">
+                <label for="meeting-time">Ημερομηνία και ώρα:</label>
+                <input type="datetime-local" id="meeting-time" name="meeting-time" required>
+                <button type="submit" class="btn btn-submit">Αποστολή</button>
+            </form>
+        </div>
+
+        <div id="no-message" class="hidden">
+            <p>Κρίμα! Ίσως την επόμενη φορά. 😊</p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
